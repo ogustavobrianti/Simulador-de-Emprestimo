@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box{
+    background-color:rgba(194, 198, 211, 0.315);
+    padding: 1 rem;
+    border: 5px;
+    border-radius: 5%;
+    max-width: 670px;
+    max-height: 1000px;
+}
+body{
+   background-image: url(https://financasinteligentes.com/wp-content/uploads/2021/07/b3-brasil-bolsa-balcao-768x444-1.png); 
+   background-repeat:no-repeat ;
+    background-size:cover;
+    }
+    .caixa input[type="text"], .caixa input[type="number"] {
+        display: block;
+        width: 50%;
+        padding: 1rem;
+        border: none;
+        border-radius: .5rem;
+        background-color: silver;
+        color: black;
+        outline: none;
+        border: 1px solid black; 
+    }
+
+    .caixas {
+        font-weight: bold;
+        height: 25vh;
+       align-items: center;
+        display: block;
+        width: 50%;
+        padding: 1rem;
+        border: 5%;
+        border-radius: .5rem;
+        background-color: silver;
+        color: black;
+        outline: none;
+        border: 2px solid black; 
+    }
+    
+  
+
+
+
+
+    

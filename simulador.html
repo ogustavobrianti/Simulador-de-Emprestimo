@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Empréstimo</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<center>
+<div class="box">
+<body>
+    <div class="caixa">
+    <h1>Bem Vindo ao BANCÃO</h1>
+    <h2>SIMULADOR DE EMPRÉSTIMO</h2>
+
+    <form method="POST" action="cod.php">
+        <p>
+        <label for="name">Nome:</label>
+        <input type="text" name="nome" id="name"><br>
+        </p> 
+        <br>       
+        <P>
+        <label>Voçe já é nosso cliente?</label>
+        <input type="radio" name="cliente" value="s">Sim
+        <input type="radio" name="cliente" value="n">Não<br>
+      </p>
+      <br>
+      <P>
+        <label for="score">Digite seu Serasa Score:</label>
+        <input type="number" name="score" id="score"><br>
+      </p>
+      <P>
+        <label for="emprestimo">Valor do emprestimo</label>
+        <input type="number" name="emprestimo" id="emprestimo"><br>
+      </p>
+      <br>
+      <p>
+      <label for="parcelas">Quantidade de parcelas</label>
+    <select id="parcelas" name="parcelas">
+    <option value="12" selected>12x</option>
+    <option value="24" selected>24x</option>
+    <option value="36" selected>36x</option>
+    </p>
+    <p> 
+        <br>
+    <input type="checkbox" name="seguro" id="seguro" value="sim" checked>Deseja incluir seguro desemprego no valor por 49,90?
+    </p>
+</br>
+    <input type="submit" value="Solicitar Empréstimo"></div>
+    
+
+
+    </form>
+    </center>
+
+</div>
+</body>
+</html>
